@@ -7,7 +7,8 @@
   const allLinks = nav.children;
 
   for (let link of allLinks) {
-    if (link.href == location.href) {
+    console.log(window.innerWidth);
+    if (link.href == location.href && window.innerWidth < 765) {
       link.style.backgroundColor = '#222121';
     }
   }

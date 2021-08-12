@@ -6,3 +6,6 @@
   - Abra o arquivo: `index.html` que está dentro da pasta `site-final`, para isso utilize o seu navegador preferido. ( clique duas vezes no arquivo `index.html` )
 
 ### Apenas a página inicial sera desenvolvida por completo;
+
+## Conteúdo básico sobre html em:
+ - <a href="./basic-html/readme.md">Basic-html</a>
