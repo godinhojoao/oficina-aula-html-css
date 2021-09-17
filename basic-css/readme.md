@@ -14,9 +14,9 @@
 - Para "linkar"/juntar um arquivo `.html` com um `.css`, portanto a estrutura do HTML com os estilos do CSS, é necessário entendermos a forma de navegar entre pastas e arquivos.
 
 - Pastas: onde guardamos arquivos.
-- Arquivos: Onde colocamos dados, por exemplo, um `arquivo.html` onde colocamos "código" html.
+- Arquivos: Onde colocamos dados, por exemplo, um `arquivo.html` onde colocamos código HTML.
  
-  <img src="./../site-final/images/readme/exemplo-caminhos.png" alt="exemplo caminhos img">
+  <img src="./../site-final/images/readme/exemplo-caminhos.png" alt="exemplo caminhos img" />
   
 - Para juntarmos o arquivo `index.html` ao `main.css` precisamos colocar dentro do index.html o seguinte trecho: `<link rel="stylesheet" href="./../css/site-legal/main.css">`.
   - Explicações:
@@ -28,17 +28,17 @@
 
 ## Qual a estrutura de um arquivo CSS?
 
-  <img src="./../site-final/images/readme/css-declaration-small.png" alt="estrutura css img"><br>
+  <img src="./../site-final/images/readme/css-declaration-small.png" alt="estrutura css img" /><br>
   - `seletor { propriedade: valor; } `
 
 ## Alguns tipos de seletores CSS:
 
 - Para referenciar uma tag HTML: `nome-da-tagHTML { estilos }`
 - Para referenciar uma classe: `.nome-da-classe { estilos }` --> utilizamos o `.` junto ao nome da classe.
-  - Vale ressaltar que o nome da classe é atribuido no HTML: `<p class="nome-da-classe">paragrafo</p>`
+  - Vale ressaltar que o nome da classe é atribuido no HTML: `<p class="nome-da-classe">parágrafo</p>`
   - Exemplo: `.nome-da-classe { estilos }`
 - Para referenciar um id: `#nome-do-id { estilos }` --> utilizamos o `#` colado com o nome do id.
-  - Vale ressaltar que o nome do id é atribuido no HTML: `<p id="nome-do-id">paragrafo</p>`
+  - Vale ressaltar que o nome do id é atribuido no HTML: `<p id="nome-do-id">parágrafo</p>`
   - Exemplo: `#nome-do-id { estilos }`
 
 ## Aviso: Alguns seletores são mais "importantes" que os outros, as regras obedecidas serão do seletor mais "forte". Portanto tome cuidado e pesquise no Google qual os seletores que vêm antes dos outros. ( Além disso, é importante ressaltar que podemos combinar vários seletores diferentes no mesmo elemento )
@@ -68,7 +68,7 @@
   }
   ```
 
-## Como mudar a cor de fundo de alguma tag HTML ?
+## Como mudar a cor de fundo de alguma tag HTML?
 
 - ```
     seletor {
